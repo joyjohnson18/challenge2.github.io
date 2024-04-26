@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --FF:"Inter",san-serif;
+  --BGCOLOR:hsl(47, 88%, 63%);
+  --CARDCOLOR: hsl(0, 0%, 50%);
+  --COLOR:hsl(0, 0%, 7%);
+  --BWHITE:hsl(0, 0%, 100%);
+  --FS:16px;
+
+}
+body,html{
+  height: 100vh;
+  background-color: var(--BGCOLOR);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: var(--BWHITE);
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  border-radius: 12px;
+  box-shadow: 10px 10px ;
+  border: 1px solid var(--COLOR);
+
+
+}
+
+figure{
+  margin: .2rem;
+}
+figure img{
+  width: 100%;
+  border-radius: 10px;
+}
+figure .p{
+  margin-top: .6rem;
+  margin-bottom: .6rem;
+  
+}
+ 
+figcaption p{
+  margin-top: .6rem;
+  background-color: var(--BGCOLOR);
+  font-weight: 800;
+  padding: .4rem;
+ width: 30%;
+ border-radius: 4px;
+}
+.content p{
+ margin-bottom: .8rem;
+ color: var(--CARDCOLOR);
+ display: block;
+ 
+
+}
+.h1{
+  margin-bottom: .8rem;
+  font-weight: 800;
+}
+.h1:active{
+  color: var(--BGCOLOR);
+
+}
+.h1:hover{
+  cursor:pointer;
+}
+
+
+.bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  
+  
+  
+}
+.bottom img{
+  
+  width: 30%;
+  padding: .5rem;
+}
+ .font{
+color: var(--COLOR);
+font-weight: 700;
+font-size: var(--FS);
+}
+
